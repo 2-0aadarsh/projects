@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aadarsh-Resume</title>
+</head>
+<body>
+    <h1>Aadarsh</h1>
+
+    <div class="information">
+        <p>Contact : <a href="">aadarsh0811@gmail.com</a></p>
+        <p>LinkedIn : <a href="https://www.linkedin.com/in/aadarsh-upadhyay-6a8747156/"> https://www.linkedin.com/in/aadarsh-upadhyay-6a8747156/</a></p>
+        <p>GitHub : <a href="https://github.com/2-0aadarsh"> https://github.com/2-0aadarsh </a></p>
+    </div>
+
+    <div class="about">
+        <table>
+            <tr>
+                <td>
+                    <img src="porfolio\profPic.jpeg" alt="" height="150px"> 
+                </td>
+                <td>
+                    I'm passionate in software engineering with expertise in problem solving and algorithmic thinking. I love to explore various technologies and frameworks to develop efficient and scalable solution. With a strong foundation in data structures and algorithm, I strive to create robust and optimize code. I constantly expanding skills and staying up-to-date with latest advancement in the field of software development.
+
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="education">
+        <h2>Education</h2>
+        <ul>
+            <li>Bachelor of Technology in Computer Science and Information, VIT Bhopal</li>
+            <li>D.A.V Public School, Gaya</li>
+        </ul>
+    </div>
+
+    <div class="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>C++</li>
+            <li>Java Script</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>PYthon</li>
+            <li>SQL</li>
+        </ul>
+    </div>
+
+    <div class="projects">
+        <h2>Projects</h2>
+        <ul>
+            <li>
+                <h3>Tea Station</h3>
+                <p>Tea station Application - developed a desktop web application by using HTML, CSS.</p>
+                <p>GitHub Link : <a href="https://github.com/2-0aadarsh/tea-station-project">https://github.com/2-0aadarsh/tea-station-project</a></p>
+            </li>
+        </ul>
+    </div>
+
+    <div class="faqs">
+        <h2>Frequently asked Questions : </h2>
+
+        <details>
+            <summary>Question 1 : What is your name?</summary>
+            <p>Myself Aadarsh.</p>
+        </details>
+
+        <details>
+            <summary>Question 2 : How do I get started ? </summary>
+            <p>Basics of programming language.</p>
+        </details>
+
+        <details>
+            <summary>Question 3 : Is there a mobile app available ? </summary>
+            <p>No</p>
+        </details>
+
+    </div>
+
+    <footer>
+        <p>&#169; 2023 Aadarsh. All rights reserved for you </p>
+    </footer>
+
+</body>
+</html>
