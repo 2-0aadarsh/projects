@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product catalog</title>
+</head>
+<body>
+    <div class="header">
+        <h1>Product catalog</h1>
+        <ul>
+            <li>
+                <a href="#electronics">Electronics</a>
+            </li>
+            <li>
+                <a href="#clothing">Clothing</a>
+            </li>
+            <li>
+                <a href="#">Home</a>
+            </li>
+        </ul>
+    </div>
+
+    <!-- Electronics Section -->
+    <div id="electronics">
+        <h2> <u> Electronics </u> </h2>
+        
+        <div class="laptop">
+            <h3>laptop</h3>
+            <p> <b>Description : </b> High Performance laptop with high processor and ample storage </p>
+            <p> <b>Price : </b> $999.99 <i> only </i> </p>
+            <p> <b>Availability : </b> In stock </p>
+            <img src="./product catalog/laptop.jpg" alt="laptop" height="150px"> <br>
+            <p> <a href="#laptopDetails"> view details </a></p>
+            <ul>
+                <li id="laptopDetails"> <b>Brand : </b> XYZ electronics</li>
+                <li> <b>Screen : </b> 15.6 inches</li>
+                <li> <b>Storage : </b> 1TB</li>
+                <li> <b>RAM : </b> 8GB</li>
+            </ul>
+        </div>
+
+        <div id="smartphone">
+            <h3>Smartphones</h3>
+            <p> <b>Description : </b> Feature-rich smartphone with a high resolution display and advance camera </p>
+            <p> <b>Price : </b> $499.99 <i>only</i> </p>
+            <p> <b>Availability : </b> Out of stock </p>
+            <img src="./product catalog/phone.jpg" alt="smartphone" height="150px">
+            <p> <a href="#smartphoneDetails"> view Details </a> </p>
+            <ul>
+                <li id="#smartphoneDetails"> <b>Brand : </b> ABC mobiles</li>
+                <li> <b>camera : </b> 48MB + 12mb</li>
+                <li> <b>Storage : </b> 64GB</li>
+                <li> <b>Screen : </b> 6.5 inches </li>
+            </ul>
+        </div>
+
+    </div>
+    <!-- End of Electronics section -->
+    
+
+    <!-- Clothing Section -->
+    <div id="clothing">
+        <h2><u>Clothing </u></h2>
+
+        <div class="t-shirts">
+            <h3>T-shirt</h3>
+            <p> <b> Description : </b> Casual and comfortable t-shirt made from premium quality cotton </p>
+            <p> <b> Price : </b> $19.99 <i>only</i></p>
+            <p> <b> Availability : </b> In Stock </p>
+            <img src="./product catalog/tshirts.webp" alt="t-shirt" height="150px">
+            <p> <a href="#tshirtDetails"> view details </a> </p>
+            <ul>
+                <li id="#tshirtDetails"> <b> Brand : </b> Fashion Appareal</li>
+                <li> <b>Color : </b> Black</li>
+                <li> <b>Size : </b> S,M,L</li>
+                <li> <b>Material : </b> 100% cotton </li>
+            </ul>
+        </div>
+
+        <div class="pillow">
+            <h3>Pillow</h3>
+            <p> <b> Description : </b> Soft and comfortable throw pillow for your living room or bedroom </p>
+            <p> <b> Price : </b> $10.89 <i>only</i></p>
+            <p> <b> Availability : </b> In Stock </p>
+            <img src="./product catalog/pillow.webp" alt="pillow" height="150px">
+            <p> <a href="#pillowDetails"> view details </a> </p>
+            <ul>
+                <li id="#pillowDetails"> <b> Brand : </b> PQR</li>
+                <li> <b>Color : </b> White</li>
+                <li> <b>Dimension : </b> 18 x 18 inches</li>
+                <li> <b>Material : </b> cotton, polyster </li>
+            </ul>
+        </div>
+        
+    </div>
+    <!-- End of Clothing Section -->
+
+    <!-- footer section  -->
+
+    <footer>
+        <p> <a href="#"> Home </a ></p>
+        <p> &#169; 2023 Product, Catalog. All Rights reserved.</p>
+    </footer>
+
+    <!-- End of footer section -->
+</body>
+</html>
