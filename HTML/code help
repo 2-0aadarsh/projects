@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Help</title>
+
+    <link rel="shortcut icon" href="./logo1.png" type="image/x-icon">
+
+</head>
+<body>
+    <header>
+        <h1>Welcome to Codehelp</h1>
+
+        <div>
+            <table>
+                <tr>  
+                    <td><img src="./logo1.png" alt="logo" loading="lazy"></td>
+                    <td>
+                        <nav>
+                            <ul>
+                                <li> <a href="#roadmap-videos"> roadmap videos </a> </li>
+                                <li> <a href="#operating-system-videos"> operating system videos </a> </li>
+                                <li> <a href="#dbms-videos"> DBMS videos </a> </li>
+                                <li> <a href="#dsa-videos"> DSA videos </a> </li>
+                                <li> <a href="#web-development-videos"> Web development videos </a> </li>
+                            </ul>
+                        </nav>
+                    </td>
+                </tr>
+                <tr>
+                </tr>
+            </table>
+
+        </div>
+    </header>
+
+    <main>
+        <div class="about">
+            <h2 >About Codehelp</h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa placeat error mollitia modi voluptates, aperiam     labore, exercitationem quod rem omnis doloribus consectetur debitis vel! Mollitia id veniam, placeat    reprehenderit itaque dolores magnam incidunt necessitatibus dignissimos esse! Voluptatibus qui ipsum ipsa  officiis illum reiciendis obcaecati natus veritatis expedita voluptatum, iusto, atque rerum sit, sequi illo  voluptate laudantium corporis. Cupiditate totam optio repudiandae cumque. Tempora maiores similique saepe nisi   delectus nostrum libero esse ratione. Sunt earum rerum, delectus illo molestiae sint blanditiis doloremque ipsam  vero fuga inventore facere dolore assumenda consectetur fugiat nisi veniam, nobis quos architecto illum. Quos    earum officiis rerum!
+            </p>
+        </div>
+
+        <div class="aditional-media">
+            <h2>Additional media</h2>
+            <table>
+                <tr>
+                    <td><audio src="" controls></audio></td>
+                    <td><video src="" controls height="150px"></video></td>
+                </tr>
+            </table>
+        </div>
+
+        <!-- roadmap videos -->
+        <div id="roadmap-videos">
+            <h2>Roadmap videos</h2>
+            <iframe src="https://www.youtube.com/embed?v=VY6003vijLw&list=PL4PCksYQGLJMtEI_0y0FWf3dz1DzB_2KU?" loading="lazy"></iframe>
+
+            <iframe src="https://www.youtube.com/embed?v=mlxoB3wI9eY&list=PL4PCksYQGLJMtEI_0y0FWf3dz1DzB_2KU&index=2"loading="lazy"></iframe>
+
+            <iframe src="https://www.youtube.com/embed?v=GLk7-imcjiI&list=PL4PCksYQGLJMtEI_0y0FWf3dz1DzB_2KU&index=3"loading="lazy"></iframe> <br> <br>
+
+            <iframe src="https://www.youtube.com/embed?v=VaMWsm6CFss&list=PL4PCksYQGLJMtEI_0y0FWf3dz1DzB_2KU&index=4"loading="lazy"></iframe>
+
+            <iframe src="https://www.youtube.com/embed?v=07QCAJYolaE&list=PL4PCksYQGLJMtEI_0y0FWf3dz1DzB_2KU&index=5"loading="lazy"></iframe>
+
+            <iframe src="https://www.youtube.com/embed?v=PM8gczl7DVw&list=PL4PCksYQGLJMtEI_0y0FWf3dz1DzB_2KU&index=6"loading="lazy"></iframe>
+        </div>
+        <!-- end of roadmap-videos -->
+
+        <!-- operating system -->
+        <div id="operating-system-videos">
+            <h2>Operating system videos</h2>
+
+            <iframe src="https://www.youtube.com/embed?v=_TpOHMCODXo&list=PLDzeHZWIZsTr3nwuTegHLa2qlI81QweYG"></iframe>
+
+            <iframe src="https://www.youtube.com/embed?v=a1l4MceYHaQ&list=PLDzeHZWIZsTr3nwuTegHLa2qlI81QweYG&index=2"></iframe>
+
+            <iframe src="https://www.youtube.com/embed?v=LBqNWOqSzBA&list=PLDzeHZWIZsTr3nwuTegHLa2qlI81QweYG&index=3"></iframe> <br>
+
+            <iframe src="https://www.youtube.com/embed?v=iAnEvdCya6M&list=PLDzeHZWIZsTr3nwuTegHLa2qlI81QweYG&index=4"></iframe>
+
+            <iframe src="https://www.youtube.com/embed?v=kHMXP_i6zew&list=PLDzeHZWIZsTr3nwuTegHLa2qlI81QweYG&index=5"></iframe>
+
+            <iframe src="https://www.youtube.com/embed?v=lo8Z61qCDqQ&list=PLDzeHZWIZsTr3nwuTegHLa2qlI81QweYG&index=6"></iframe>
+
+        </div>
+        <!-- end of operating system -videos -->
+
+        <!-- dbms videos -->
+        <div id="dbms-videos">
+            <h2>DBMS videos</h2>
+
+            <iframe src="https://www.youtube.com/embed?v=eYpXCdvKwEQ&list=PLDzeHZWIZsTpukecmA2p5rhHM14bl2dHU"></iframe>
+
+            <iframe src="https://www.youtube.com/embed?v=TYo_CUnIWP8&list=PLDzeHZWIZsTpukecmA2p5rhHM14bl2dHU&index=2"></iframe>
+
+            <iframe src="https://www.youtube.com/embed?v=mYI2nopkQJE&list=PLDzeHZWIZsTpukecmA2p5rhHM14bl2dHU&index=3"></iframe> <br>
+
+            <iframe src="https://www.youtube.com/embed?v=mYI2nopkQJE&list=PLDzeHZWIZsTpukecmA2p5rhHM14bl2dHU&index=3"></iframe>
+
+            <iframe src="https://www.youtube.com/embed?v=8_dMPX6_qiY&list=PLDzeHZWIZsTpukecmA2p5rhHM14bl2dHU&index=5"></iframe>
+
+            <iframe src="https://www.youtube.com/embed?v=w-VfTUvxETQ&list=PLDzeHZWIZsTpukecmA2p5rhHM14bl2dHU&index=6"></iframe>
+        </div>
+        <!-- end of dbms-videos -->
+
+        <!-- dsa videos -->
+        <div id="dsa-videos">
+            <h2>DSA videos</h2>
+            
+            <iframe src="https://www.youtube.com/embed?v=WQoB2z67hvY&list=PLDzeHZWIZsTryvtXdMr6rPh4IDexB5NIA"></iframe>
+
+            <iframe src="https://www.youtube.com/embed?v=t6zLJOCVqD0&list=PLDzeHZWIZsTryvtXdMr6rPh4IDexB5NIA&index=2"></iframe>
+
+            <iframe src="https://www.youtube.com/embed?v=WR31ByTzAVQ&list=PLDzeHZWIZsTryvtXdMr6rPh4IDexB5NIA&index=3"></iframe> <br>
+
+            <iframe src="https://www.youtube.com/embed?v=WR31ByTzAVQ&list=PLDzeHZWIZsTryvtXdMr6rPh4IDexB5NIA&index=3"></iframe>
+
+            <iframe src="https://www.youtube.com/embed?v=yjdQHb2elqI&list=PLDzeHZWIZsTryvtXdMr6rPh4IDexB5NIA&index=5"></iframe>
+
+            <iframe src="https://www.youtube.com/embed?v=bWrsk0QizEk&list=PLDzeHZWIZsTryvtXdMr6rPh4IDexB5NIA&index=6"></iframe>
+        </div>
+        <!-- end of dsa-videos -->
+
+        <!-- web development videos -->
+        <div id="web-dev-videos">
+            <h2>Web Development videos</h2>
+
+            <iframe src="https://www.youtube.com/embed?v=Vi9bxu-M-ag&list=PLDzeHZWIZsTo0wSBcg4-NMIbC0L8evLrD"></iframe>
+
+            <iframe src="https://www.youtube.com/embed?v=aRUhd1Wd3Sw&list=PLDzeHZWIZsTo0wSBcg4-NMIbC0L8evLrD&index=2"></iframe>
+
+            <iframe src="https://www.youtube.com/embed?v=ofHYRdWQESo&list=PLDzeHZWIZsTo0wSBcg4-NMIbC0L8evLrD&index=3"></iframe> <br>
+
+            <iframe src="https://www.youtube.com/embed?v=0gU-qrq3gjU&list=PLDzeHZWIZsTo0wSBcg4-NMIbC0L8evLrD&index=4"></iframe>
+
+            <iframe src="https://www.youtube.com/embed?v=KdWPGqT5GwE&list=PLDzeHZWIZsTo0wSBcg4-NMIbC0L8evLrD&index=5"></iframe>
+
+            <iframe src="https://www.youtube.com/embed?v=e1X3WPoETsk&list=PLDzeHZWIZsTo0wSBcg4-NMIbC0L8evLrD&inembed"></iframe>
+        </div>
+        <!-- end of web development-videos -->
+
+    </main>
+</body>
+</html>
