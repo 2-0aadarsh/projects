@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Socket.io chat</title>
+    <style>
+        *{
+            color: #fff;
+        }
+        body { margin: 0; padding-bottom: 3rem; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; background-color: #000;}
+
+        #input { border: none; padding: 0 1rem; flex-grow: 1; border-radius: 2rem; margin: 0.25rem; color: #000;}
+        #input:focus { outline: none; }
+
+        #wrapper { background: rgba(0, 0, 0, 0.25); padding: 0.25rem; position: fixed; bottom: 0; left: 0; right: 0; display: flex; height: 3rem; box-sizing: border-box; backdrop-filter: blur(10px); }
+
+        button { background: #02aea9; border: none; padding: 0 1rem; margin: 0.25rem; border-radius: 3px; outline: none; color: #fff; }
+
+        #messages{ width: 50vw;}
+
+        #messages :nth-child(odd) { background: #797979; padding: 0.4rem 1rem; border-radius: 15px;}
+        #messages :nth-child(even) { background: #ecfc5f; padding: 0.4rem 1rem; border-radius: 15px; color: #0c0505;}
+        h1{
+            text-align: center;
+            margin-top: -5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>chat box</h1>
+
+    <div id="messages"></div>
+    
+    <div id="wrapper">
+        <input type="text" id="input" placeholder="Enter text..">
+        <button id="btn">Send</button>
+    </div>
+
+    
+    <script src="/socket.io/socket.io.js"></script>
+
+    <script>
+        const socket = io();
+        const btn = document.getElementById('btn');
+        const messageInput = document.getElementById('input');
+        const allMessages = document.getElementById('messages');
+
+        socket.on('serverMessage', (message)=>{ /*server sending the message*/
+            // console.log(`server se message aaya hai ${message}`);
+            
+            
+            const p = document.createElement('p');
+            p.innerText = message;
+            allMessages.appendChild(p);
+
+        })
+
+        btn.addEventListener('click', (event)=>{
+            const message = messageInput.value;
+
+            socket.emit('userMessage', (message)); /*client sending data to the server*/
+            messageInput.value = "";
+        })
+    </script>
+</body>
+</html>
